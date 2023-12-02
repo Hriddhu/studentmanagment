@@ -116,7 +116,7 @@ void searchstu() {
 
     while (fscanf(fp, "Name: %49s\nRoll: %d\nAddress: %49s\nClass: %d\nPercentage: %f\n\n",
                   current.name, &current.roll, current.address, &current.class, &current.percent) == 5) {
-        // Debug print to check values read from the file
+        // only for debugging
         printf("Read from file: %s, %d, %s, %d, %.2f\n", current.name, current.roll, current.address, current.class, current.percent);
         
         if (strcmp(name, current.name) == 0 && class == current.class && roll == current.roll) {
