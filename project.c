@@ -222,3 +222,4 @@ void updatestu() {
         printf("The student is not in the records\n");
 }
 
+// changes made by prastut nepal !!! 
