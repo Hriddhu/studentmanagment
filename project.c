@@ -206,7 +206,7 @@ void updatestu() {
             }
 
             
-            fseek(fp, -strlen(current.name) - 64, SEEK_CUR);
+            
 
             fprintf(fp, "Name: %s\nRoll: %d\nAddress: %s\nClass: %d\nPercentage: %.2f\n\n",
                     current.name, current.roll, current.address, current.class, current.percent);
